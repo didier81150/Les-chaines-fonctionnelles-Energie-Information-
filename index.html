@@ -1,1 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les chaînes fonctionnelles - Énergie et Information</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Les chaînes fonctionnelles</h1>
+        <nav>
+            <ul>
+                <li><a href="#chaine-information">Chaîne d'information</a></li>
+                <li><a href="#chaine-energie">Chaîne d'énergie</a></li>
+                <li><a href="#interactions">Interactions entre les chaînes</a></li>
+                <li><a href="exercices/">Exercices</a></li>
+                <li><a href="#ressources">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <!-- Introduction -->
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                Les systèmes automatiques sont composés de deux chaînes fonctionnelles principales :
+                <strong>la chaîne d'information</strong> et <strong>la chaîne d'énergie</strong>.
+                Ces chaînes permettent de comprendre comment un système automatique prend des décisions et réalise des actions.
+            </p>
+        </section>
+
+        <!-- Chaîne d'information -->
+        <section id="chaine-information">
+            <h2>La chaîne d'information</h2>
+            
+            <subsection id="presentation-information">
+                <h3>Présentation</h3>
+                <p>
+                    Pour produire des <strong>ordres</strong>, un système automatique doit connaître les informations 
+                    provenant de l'utilisateur ainsi que les états du système lui-même et de son environnement.
+                </p>
+                <p>
+                    Les <strong>états</strong> et les <strong>consignes</strong> sont des grandeurs physiques détectées et mesurées 
+                    par des <strong>capteurs</strong>.
+                </p>
+                <p>
+                    L'analyse de ces données est assurée par un <strong>circuit électronique</strong> qui envoie ensuite 
+                    les <strong>ordres</strong> à exécuter.
+                </p>
+                <p>
+                    La chaîne d'information est l'ensemble des fonctions techniques et des solutions technologiques qui 
+                    participent à la prise des décisions par le système automatique.
+                </p>
+            </subsection>
+
+            <subsection id="schema-information">
+                <h3>Schéma fonctionnel</h3>
+                
+                <h4>Fonctions techniques :</h4>
+                <p>
+                    La chaîne d'information est composée de 3 blocs fonctionnels :
+                </p>
+                <ul>
+                    <li><strong>Acquérir</strong> : les grandeurs physiques externes sont traduites en signaux électriques par les capteurs.</li>
+                    <li><strong>Traiter</strong> : le programme de l'unité de commande analyse les informations et prend les décisions.</li>
+                    <li><strong>Communiquer</strong> : les ordres sont envoyés à la chaîne d'énergie et des signaux sont adressés à l'opérateur.</li>
+                </ul>
+
+                <h4>Solutions technologiques :</h4>
+                <p>
+                    Pour assurer chacune de ces 3 fonctions techniques, il existe de nombreuses solutions technologiques :
+                </p>
+                <ul>
+                    <li>
+                        <strong>Acquérir</strong> : 
+                        capteur logique, analogique ou numérique (interrupteur, bouton-poussoir, clavier, anémomètre, 
+                        cellule photoélectrique, détecteur infrarouge, thermistance...).
+                    </li>
+                    <li>
+                        <strong>Traiter</strong> : 
+                        circuit intégré, microprocesseur, microcontrôleur, calculateur, circuit de commande, module logique, 
+                        automate programmable...
+                    </li>
+                    <li>
+                        <strong>Communiquer</strong> : 
+                        carte électronique, fil électrique, fibre optique, liaison sans fil, connexion réseau...
+                    </li>
+                </ul>
+            </subsection>
+
+            <subsection id="exemple-information">
+                <h3>Exemple : Régulation de température</h3>
+                <p><em>Source : STI2D</em></p>
+                <p>
+                    Composition de la chaîne d'information d'une régulation de température :
+                </p>
+                <ul>
+                    <li><strong>Grandeurs physiques</strong> : la température souhaitée (consigne) et la température réelle (état).</li>
+                    <li><strong>Acquérir</strong> : le thermostat est le capteur qui mesure la température de la maison.</li>
+                    <li><strong>Traiter</strong> : le circuit intégré compare la température mesurée à celle désirée.</li>
+                    <li><strong>Communiquer</strong> : la carte électronique envoie le bon ordre en fonction de la température.</li>
+                    <li><strong>Ordres</strong> : déclencher ou arrêter le chauffage.</li>
+                </ul>
+            </subsection>
+        </section>
+
+        <!-- Chaîne d'énergie -->
+        <section id="chaine-energie">
+            <h2>La chaîne d'énergie</h2>
+            
+            <subsection id="presentation-energie">
+                <h3>Présentation</h3>
+                <p>
+                    Pour effectuer des <strong>actions</strong>, un système automatique a besoin d'être alimenté par une 
+                    <strong>source d'énergie</strong>.
+                </p>
+                <p>
+                    Bien que les énergies intervenantes soient très variées (électrique, mécanique, thermique, hydraulique, 
+                    pneumatique...), le principe est toujours le même. Les <strong>ordres</strong> provenant de la chaîne 
+                    d'information autorisent :
+                </p>
+                <ul>
+                    <li>La distribution de la bonne quantité d'énergie dans le système.</li>
+                    <li>La conversion de l'énergie par des <strong>actionneurs</strong>.</li>
+                    <li>La transmission de l'énergie aux <strong>effecteurs</strong>.</li>
+                </ul>
+                <p>
+                    Identifier les composants qui assurent ces différentes fonctions permet de comprendre le fonctionnement du système.
+                </p>
+                <p>
+                    La chaîne d'énergie est l'ensemble des fonctions techniques et des solutions technologiques qui participent 
+                    à la réalisation des opérations par le système automatique.
+                </p>
+            </subsection>
+
+            <subsection id="schema-energie">
+                <h3>Schéma fonctionnel</h3>
+                
+                <h4>Fonctions techniques :</h4>
+                <p>
+                    La chaîne d'énergie est composée de 4 blocs fonctionnels :
+                </p>
+                <ul>
+                    <li><strong>Alimenter</strong> : l'énergie externe est adaptée pour le bon fonctionnement du système.</li>
+                    <li><strong>Distribuer</strong> : un distributeur fait varier la quantité d'énergie en fonction des ordres reçus.</li>
+                    <li><strong>Convertir</strong> : un actionneur transforme l'énergie en une autre.</li>
+                    <li><strong>Transmettre</strong> : un mécanisme transfère cette énergie vers l'effecteur afin de générer une action.</li>
+                </ul>
+
+                <h4>Solutions technologiques :</h4>
+                <p>
+                    Pour assurer chacune de ces 4 fonctions techniques, il existe de nombreuses solutions technologiques :
+                </p>
+                <ul>
+                    <li>
+                        <strong>Alimenter</strong> : 
+                        bloc/boîtier d'alimentation, coffret/tableau électrique, fils électriques, pile, coupleur de piles, 
+                        batterie, accumulateur, transformateur, panneau photovoltaïque...
+                    </li>
+                    <li>
+                        <strong>Distribuer</strong> : 
+                        contacteur, relais, inverseur, variateur, régulateur, distributeur, vanne...
+                    </li>
+                    <li>
+                        <strong>Convertir</strong> : 
+                        actionneur (moteur, vérin, résistance, sirène, haut-parleur, électroaimant, voyant, écran...).
+                    </li>
+                    <li>
+                        <strong>Transmettre</strong> : 
+                        engrenage, réducteur, embrayage, bielle, bras, poulie/courroie, pignon/chaîne, crémaillère/vis sans fin...
+                    </li>
+                </ul>
+            </subsection>
+
+            <subsection id="exemple-energie">
+                <h3>Exemple : Store automatique</h3>
+                <p><em>Source : STI2D</em></p>
+                <p>
+                    Composition de la chaîne d'énergie d'un store automatique :
+                </p>
+                <ul>
+                    <li><strong>Source d'énergie</strong> : l'électricité.</li>
+                    <li><strong>Alimenter</strong> : le boîtier d'alimentation fournit l'énergie électrique à tout le système (partie commande et partie opérative).</li>
+                    <li><strong>Distribuer</strong> : les contacteurs amènent l'électricité au moteur en fonction des ordres reçus.</li>
+                    <li><strong>Convertir</strong> : le moteur transforme l'énergie électrique en énergie mécanique.</li>
+                    <li><strong>Transmettre</strong> : les engrenages réduisent la vitesse de rotation du moteur et font tourner le tube d'enroulement de la toile.</li>
+                    <li><strong>Action</strong> : l'ouverture ou la fermeture du store.</li>
+                </ul>
+            </subsection>
+        </section>
+
+        <!-- Interactions entre les chaînes -->
+        <section id="interactions">
+            <h2>Interactions entre les chaînes</h2>
+            <p><em>Source : SlidePlayer</em></p>
+            <p>
+                Les chaînes d'information et d'énergie sont interdépendantes. La chaîne d'information prend des décisions 
+                en fonction des données acquises, puis envoie des ordres à la chaîne d'énergie pour réaliser des actions.
+            </p>
+            <p>
+                Par exemple, dans un système de chauffage automatique :
+            </p>
+            <ul>
+                <li>La chaîne d'information mesure la température et décide si le chauffage doit être allumé ou éteint.</li>
+                <li>La chaîne d'énergie alimente et actionne le système de chauffage en fonction des ordres reçus.</li>
+            </ul>
+        </section>
+
+        <!-- Exercices -->
+        <section id="exercices">
+            <h2>Exercices</h2>
+            <p>
+                Pour aller plus loin, consultez les exercices pratiques sur les chaînes fonctionnelles :
+            </p>
+            <ul>
+                <li><a href="exercices/chaine-information.html">Exercices sur la chaîne d'information</a></li>
+                <li><a href="exercices/chaine-energie.html">Exercices sur la chaîne d'énergie</a></li>
+            </ul>
+        </section>
+
+        <!-- Ressources -->
+        <section id="ressources">
+            <h2>Ressources</h2>
+            <p><em>Sources : Académie de Martinique, de Toulouse, de Versailles, TechnoCalvisi</em></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thème</th>
+                        <th>Exemples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Les chaînes fonctionnelles</td>
+                        <td><a href="#chaine-information">Chaîne d'information</a>, <a href="#chaine-energie">Chaîne d'énergie</a></td>
+                    </tr>
+                    <tr>
+                        <td>Comment un système automatique entre en action ?</td>
+                        <td>Structure fonctionnelle des systèmes automatisés</td>
+                    </tr>
+                    <tr>
+                        <td>Exemples concrets</td>
+                        <td>L'alarme incendie, l'éclairage, le store</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Évaluations -->
+        <section id="evaluations">
+            <h2>Évaluations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titre</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">Les chaînes fonctionnelles (1)</a></td>
+                        <td>Évaluation sur les bases des chaînes d'information et d'énergie.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Les chaînes fonctionnelles (2)</a></td>
+                        <td>Évaluation avancée avec des cas pratiques.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sommaire -->
+        <section id="sommaire">
+            <h2>Sommaire</h2>
+            <ul>
+                <li><a href="#chaine-information">Chaîne d'information</a></li>
+                <li><a href="#chaine-energie">Chaîne d'énergie</a></li>
+                <li><a href="#interactions">Interactions entre les chaînes</a></li>
+                <li><a href="exercices/">Exercices</a></li>
+                <li><a href="#ressources">Ressources</a></li>
+                <li><a href="#evaluations">Évaluations</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Les chaînes fonctionnelles - Énergie et Information</p>
+        <p>Inspiré de <a href="https://www.techno-logique.com/AUT-chaines-fonctionnelles.shtml">Techno-Logique</a></p>
+    </footer>
+</body>
+</html>
